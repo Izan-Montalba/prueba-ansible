@@ -4,6 +4,6 @@ const server = http.createServer((req, res) => {
     res.setHeader('Content-Type', 'text/plain');
     res.end('Examen DAW Despliegue inicial\n');
 });
-server.listen(3000, () => {
+server.listen(5343, () => {
     console.log('Servidor corriendo en puerto 3000');
 });
